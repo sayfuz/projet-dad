@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-1, .color-1-hover:hover{
+    color: #518a31 !important;
+}
+
+.color-2{
+    color: #33581e ;
+}
+
+.color-blanco{
+    color: #fff !important;
+}
+
+.bg-1{
+    background-color: #518a31 !important;
+}
+
+.bg-2{
+    background-color: #33581e !important;
+}
+
+.bg-blanco{
+    background-color: #fff;
+}
+
+.bg-2-hover:hover{
+    background-color: #33581e !important;
+}
+
+.activado{
+    background-color: #33581e;
+}
+
+
+/* botón wpp */
+.aparecer{
+    opacity: 0;
+    }
+    
+    .area-hover:hover .aparecer, .mismo.aparecer {
+    opacity: 1;
+    transition: all ease 0.4s;
+    }
+    
+    
+    .escalar, .a-derecha, .a-izquierda, .a-arriba, .a-abajo, .contraer, .bordear{
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    }
+    
+    .social {
+    position: fixed;
+    right: 25px;
+    top: 90%;
+    z-index: 2000;
+    }
+    
+    .social ul {
+    list-style: none;
+    }
+    
+    .social ul li a {
+    display: inline-block;
+    color:#fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition:all 250ms ease;
+    -o-transition:all 250ms ease;
+    transition:all 250ms ease;
+    }
+    
+    .social ul {
+    padding: 0;
+    }
+    
+    
+    .social ul li .whatsapp:hover {
+    margin-left: 0;
+    }
+    
+    .boton-whatsapp:hover {filter: drop-shadow(2px 2px 6px black) !important ;transition: all ease .2s !important;}
+        
+ 
+    @media (max-width: 767px) {
+    
+    
+    
+    .social {
+    position: fixed;
+    right: 0px;
+    top: 87%;
+    z-index: 2000;
+    }
+    
+    
+    img.boton-whatsapp {
+    width: 40px !important;
+    height: auto !important;
+    filter: drop-shadow(0px 0px 1px black) !important;
+    transition: all ease .2s !important;
+    }
+    
+    
+    }

@@ -10,11 +10,11 @@ router.get('/quienes-somos-publiwhite', (req, res) => {
     res.render('about.html', {title: 'Quienes somos - Publi White Medellín'})
 })
 
-router.get('/servicios-somos-publiwhite', (req, res) => {
+router.get('/servicios-publiwhite', (req, res) => {
     res.render('services.html', {title: 'Servicios - Publi White Medellín'})
 })
 
-router.get('/contacto-somos-publiwhite', (req, res) => {
+router.get('/contacto-publiwhite', (req, res) => {
     res.render('contact.html', {title: 'Contacto - Publi White Medellín'})
 })
 
