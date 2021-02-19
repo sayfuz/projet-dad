@@ -1,4 +1,4 @@
-var pathname = window.location.pathname;
+var pathname = window.location.pathname
 
 if (pathname == "/") {
   document.getElementById("home").classList.add("activado")
